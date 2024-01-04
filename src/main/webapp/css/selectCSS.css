@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+	* { margin:0; padding:0; 
+		font-family: 'Noto Sans KR', sans-serif;
+		color: #252525; }
+	#container { width: 1000px; margin: 30px auto;}
+	div#dummy { height: 75px; background: #292929;}	
+	
+	div#header { background: goldenrod;
+			     height: 150px; }
+	div#header h1 { padding: 30px;  }
+	div#profile { background: whitesmoke;
+				  height: 500px;
+				  border-radius: 10px;
+				  padding: 50px;}
+	div#profile h2 { height: 50px; }				  
+	div#profile h3 { text-align: center;}
+	
+	/* 버튼 */
+	div#submit { text-align: center; 
+				 height: 250px; 
+				  line-height: 250px;  }
+	div#submit button { width: 200px;  height: 50px; 
+					   border: none;
+					   background: gray; 
+					   margin-left:20px; 
+					   font-size: 17px;
+					   color: whitesmoke;}
+	
+	/* 이전으로 버튼 */				   
+	div#backTotheMain {height: 100px; 
+					   text-align: center;
+					   line-height: 100px;  }
+					   
+	div#backTotheMain button { width: 200px;
+							   height: 50px; 
+							   font-weight: bold;
+							   font-size: 17px; }
